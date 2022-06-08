@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
         <activity
-            android:name=".fall"
+            android:name=".activities.fall"
             android:exported="false" />
         <activity
-            android:name=".Biography_of_poets"
+            android:name=".activities.Biography_of_poets"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".activities.MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
