@@ -5,8 +5,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/cardview"
-
     android:layout_gravity="center">
 
 
@@ -26,6 +24,7 @@
             android:textStyle="bold">
 
             <TextView
+                android:paddingRight="30dp"
                 android:id="@+id/pname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -34,7 +33,9 @@
                 android:textSize="18sp" />
 
             <TextView
+                android:paddingRight="30dp"
                 android:id="@+id/pplace"
+                android:fontFamily="@font/iannastaliq2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="place: "
@@ -42,16 +43,20 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:paddingRight="30dp"
                 android:id="@+id/pbirth"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="birth: "
+                android:fontFamily="@font/iannastaliq2"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
+                android:paddingRight="30dp"
                 android:id="@+id/pdeath"
                 android:layout_width="wrap_content"
+                android:fontFamily="@font/iannastaliq2"
                 android:layout_height="wrap_content"
                 android:text="death: "
                 android:textSize="18sp"
