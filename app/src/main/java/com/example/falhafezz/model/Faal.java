@@ -1,5 +1,6 @@
 package com.example.falhafezz.model;
 
+
 public class Faal {
 
     private String title;
