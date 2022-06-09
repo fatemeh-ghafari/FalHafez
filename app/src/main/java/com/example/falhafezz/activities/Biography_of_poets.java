@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 ;
@@ -30,11 +33,33 @@ public class Biography_of_poets extends AppCompatActivity {
     RecyclerView.LayoutManager layoutManager;
     PoetAdapter adapter;
     List<Poet> poets;
-
+ImageView backward;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_biography_of_poets);
+
+
+        backward=findViewById(R.id.imageView3);
+        backward.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Biography_of_poets.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
 
         recyclerView = findViewById(R.id.BioRV);
         poets = new ArrayList<>();

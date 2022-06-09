@@ -6,53 +6,54 @@
     android:background="@drawable/showwill"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fal">
+    tools:context=".activities.fall">
 
     <TextView
         android:id="@+id/number_ghazal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
         android:fontFamily="@font/iannastaliq2"
         android:text="TextView"
-        android:textSize="35dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.199" />
+        app:layout_constraintVertical_bias="0.193" />
 
     <TextView
         android:id="@+id/Poetry"
-        android:layout_width="264dp"
-        android:layout_height="307dp"
+        android:layout_width="269dp"
+        android:layout_height="323dp"
         android:fontFamily="@font/iannastaliq2"
+        android:paddingRight="10dp"
         android:text="TextView"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521" />
+        app:layout_constraintVertical_bias="0.477" />
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="259dp"
-        android:layout_height="86dp"
+        android:layout_width="251dp"
+        android:layout_height="58dp"
         android:text="TextView"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.779" />
+        app:layout_constraintVertical_bias="0.789" />
 
     <TextView
         android:id="@+id/again"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="فال مجدد"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
